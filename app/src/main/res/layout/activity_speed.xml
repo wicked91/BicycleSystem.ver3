@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="DisableBaselineAlignment"
+    android:weightSum="1">
+
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.wicke.bicyclesystemver2.MapsActivity"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.01"
+        tools:ignore="InefficientWeight" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="left|center"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/text_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/speed_string"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/recv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="150dp"
+                android:ems="10"
+                android:gravity="left|center"
+                android:inputType="textPersonName"
+                android:text="@string/recv_num"
+                android:textSize="50dp"
+                tools:ignore="SpUsage,TextViewEdits" />
+
+            <TextView
+                android:id="@+id/speed_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/km_string"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="left|center"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+
+            <TextView
+                android:id="@+id/text_maxspeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/max_speed_string"
+                android:textSize="30sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/max_recv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recv_num"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/max_speed_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/km_string"
+                android:textSize="30sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

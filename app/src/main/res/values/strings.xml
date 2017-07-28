@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BicycleSystem.ver2</string>
+    <string name="speed_string">Speed</string>
+    <string name="recv_num">0.0</string>
+    <string name="km_string">km/h</string>
+    <string name="max_speed_string">Max Speed</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
